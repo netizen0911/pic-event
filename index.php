@@ -27,6 +27,9 @@
 							<h1 class="main-title">BRIAN TRACY</h1>
 							<h3 class="event-info">Mississauga, August 10th, 2015</h3>
 						</div>
+						<div id="cta">
+							<a href="">RESERVE YOUR SEAT NOW</a>
+						</div>
 					</div>
 					<div class="col-md-6 col-right">
 					</div>
