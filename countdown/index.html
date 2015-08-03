@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="css/flipTimer.css" />
+  <style>
+    body {
+      background-color: #b8d6df;
+    }
+    .flipTimer {
+      margin: 100px auto 0;
+      max-width:800px;
+      width:100%;
+      text-align:center
+    }
+    .flip-cont {
+      height: 100%;
+      display: inline-block;
+    }
+    .flip-cont label {
+        font-size: 20px;
+    }
+    .label label{
+        vertical-align: top;
+        position:relative;
+        top:-45px
+    }
+  </style>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="js/jquery.flipTimer.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      //Callback works only with direction = "down"
+      $('.flipTimer').flipTimer({ 
+        direction: 'down', 
+        date: 'October 5, 2015 08:30:30',
+        seconds: false,
+        minutes: false,
+        hours: false,
+        days: false, 
+        //callback: function() { alert('times up!'); } 
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="flipTimer">
+    <div class="flip-cont">
+        <div class="days"></div>
+        <div class="label">
+          <label>Days</label>
+        </div>
+    </div>    
+    <div class="flip-cont">
+        <div class="hours"></div>
+        <div class="label">
+          <label>Hours</label>
+        </div>
+    </div>
+    <div class="flip-cont">
+        <div class="minutes"></div>
+        <div class="label">
+          <label>Minutes</label>
+        </div>
+    </div>
+    <div class="flip-cont">
+        <div class="seconds"></div>
+        <div class="label">
+          <label>Seconds</label>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
