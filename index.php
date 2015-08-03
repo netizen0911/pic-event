@@ -32,6 +32,9 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-right">
+						<div id="hero-brian">
+							<img src="img/brian.png" />
+						</div>
 					</div>
 				</div><!-- #header-inner -->
 			</header><!-- #header -->
