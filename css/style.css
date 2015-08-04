@@ -1,0 +1,170 @@
+body{
+	width:100%;
+	margin: 0;
+	font-family:'Open Sans',sans-serif;
+	font-size:18px;
+	color:#464646;
+	position:relative;
+	background:#f9f9f9
+}
+.separator{
+	margin:0;
+	clear: both;
+	height:35px;
+	width:100%;
+}
+.separator-md{
+	margin:0;
+	clear: both;
+	height:52px;
+	width:100%;
+}
+.separator-lg{
+	margin:0;
+	clear: both;
+	height:100px;
+	width:100%;
+}
+.separator-line{
+	background: url(../img/separAtor.png) repeat-x center center transparent;
+	height:70px;
+	clear:both;
+	margin:0;
+	width:95%;
+}
+.hr-light{
+	width:100%;
+	height:2px;
+	background: #fff;
+	margin:0;
+	clear:both;
+	display: block;
+}
+.hr-dark{
+	width:100%;
+	height:2px;
+	background: #999;
+	margin:0;
+	clear:both;
+	display: block;
+}
+ul{
+	list-style: none;
+}
+.clear{
+	clear:both;
+	height:0;
+}
+div#wrapper {
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+header#header {
+    width: 100%;
+    background:url(../img/top-bg.jpg)no-repeat center center;
+    background-size:cover;
+    margin:0;
+    padding:0;
+}
+div#header-inner {
+    max-width:1170px;
+    margin:auto;
+    color:#fff;
+}
+.container,.row{
+	padding:0;
+	margin:0 auto;
+}
+p.pic {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+    margin:30px 0 0;
+}
+h2.sub-title {
+    margin:40px 0 0;
+    font-weight:600;	
+    font-size:2em
+}
+h1.main-title {
+    font-family: 'Roboto';
+    font-weight:700;
+    font-size:4.5em;
+}
+h3.event-info{
+	font-size:1.5em;
+    font-weight:600;
+}
+div#cta{
+	margin:80px 0 50px;
+}
+div#cta a{
+	display:inline-block;
+	background:#008aff;
+	color:#fff;
+	padding:10px 20px;
+	text-align:center;
+	min-height:80px;
+	max-width:400px;
+	width:95%;
+	position:relative;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+	box-shadow:0 3px 0 0 #0057a0;
+	-moz-box-shadow:0 3px 0 0 #0057a0;
+	-webkit-box-shadow:0 3px 0 0 #0057a0;
+	-o-box-shadow:0 3px 0 0 #0057a0;
+	transition:all .3s ease;
+	-moz-transition:all .3s ease;
+	-webkit-transition:all .3s ease;
+	-o-transition:all .3s ease;
+	text-decoration:none;
+}
+div#cta a span{
+	position:relative;
+	top:15px;
+	font-weight:700;
+	font-size:1.1em;
+	display:block;
+	margin-bottom:20px;
+}
+div#cta a:hover{
+	background: #007AE0;
+}
+div#hero-brian img{
+    max-width:556px;
+    width:100%
+}
+div#countdown{
+	background:#333;
+	width:100%;
+	text-align:center;
+	min-height:180px;
+	padding:20px 0
+;
+	height: auto;
+}
+.flipTimer{
+	max-width:1200px;
+	margin:auto;
+	width:100%;
+}
+.flip-cont{
+	max-width:220px;
+	position:relative;
+	width:100%;
+}
+.flip-cont > div{
+	display:block;
+	position:relative;
+	margin-top:30px
+}
+h1.section-title{
+	font-family:Roboto;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:700;
+	color:#008aff
+}

@@ -4,18 +4,13 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>PIC Event with Brian Tracy</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700 | Roboto:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="css/flipTimer.css" />
+		<link rel="stylesheet" href="countdown/css/flipTimer.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<style>
-		    .flipTimer {
-		      margin: 100px auto 0;
-		      max-width:800px;
-		      width:100%;
-		      text-align:center
-		    }
 		    .flip-cont {
 		      height: 100%;
 		      display: inline-block;
@@ -38,7 +33,9 @@
 		<div id="wrapper" class="container">
 			<header id="header" class="container">
 				<div id="header-inner" class="row">
-					<div class="col-md-6 col-left">
+					<div class="separator-md"></div>
+					<div class="col-md-6 col-left text-center">
+						<div class="separator-md"></div>
 						<div id="logo">
 							<img src="img/logo.png" />
 						</div>
@@ -46,11 +43,11 @@
 							<p class="pic">PRIVATE INVESTMENT CLUB</p>
 							<p class="pre">Presents</p>
 							<h2 class="sub-title">A Special 2-Day Event With</h2>
-							<h1 class="main-title">BRIAN TRACY</h1>
+							<h1 class="main-title">BRIAN TRACY<br/><i class="hr-light"></i></h1>
 							<h3 class="event-info">Mississauga, August 10th, 2015</h3>
 						</div>
 						<div id="cta">
-							<a href="">RESERVE YOUR SEAT NOW</a>
+							<a href=""><span>RESERVE YOUR SEAT NOW</span></a>
 						</div>
 					</div>
 					<div class="col-md-6 col-right">
@@ -89,8 +86,10 @@
 					    </div>
 					</div>
 				</div>
+				<br class="clear"/>
 			</div>
 			<div id="content" class="container">
+				<div class="separator-lg"></div>
 				<section id="intro" class="section-one row">
 					<h1 class="section-title">Cras porttitor varius lacus ac mollis</h1>
 					<div class="separator-line"></div>
