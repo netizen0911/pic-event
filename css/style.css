@@ -5,7 +5,8 @@ body{
 	font-size:18px;
 	color:#464646;
 	position:relative;
-	background:#f9f9f9
+	background:#f9f9f9;
+	line-height:35px
 }
 .separator{
 	margin:0;
@@ -30,7 +31,7 @@ body{
 	height:70px;
 	clear:both;
 	margin:0;
-	width:95%;
+	width:100%;
 }
 .hr-light{
 	width:100%;
@@ -98,7 +99,7 @@ h3.event-info{
 div#cta{
 	margin:80px 0 50px;
 }
-div#cta a{
+div#cta a, a.cta, a.cta2{
 	display:inline-block;
 	background:#008aff;
 	color:#fff;
@@ -121,8 +122,9 @@ div#cta a{
 	-webkit-transition:all .3s ease;
 	-o-transition:all .3s ease;
 	text-decoration:none;
+	line-height:30px
 }
-div#cta a span{
+div#cta a span, a.cta span{
 	position:relative;
 	top:15px;
 	font-weight:700;
@@ -130,7 +132,7 @@ div#cta a span{
 	display:block;
 	margin-bottom:20px;
 }
-div#cta a:hover{
+div#cta a:hover, a.cta:hover, a.cta2:hover{
 	background: #007AE0;
 }
 div#hero-brian img{
@@ -142,19 +144,20 @@ div#countdown{
 	width:100%;
 	text-align:center;
 	min-height:180px;
-	padding:20px 0
-;
+	padding:20px 0 0;
 	height: auto;
 }
 .flipTimer{
 	max-width:1200px;
 	margin:auto;
 	width:100%;
+	height:auto !important;
 }
 .flip-cont{
 	max-width:220px;
 	position:relative;
 	width:100%;
+	height:100px;
 }
 .flip-cont > div{
 	display:block;
@@ -167,4 +170,144 @@ h1.section-title{
 	text-align:center;
 	font-weight:700;
 	color:#008aff
+}
+div#content {
+    width:100%;
+}
+section#intro{
+    max-width:1170px;
+    margin:auto;	
+    text-align:center;
+}
+section#carousel > div{
+	height:350px;
+	background-size:cover;
+}
+section#carousel > div.tile1{
+	background:url(../img/tile-01.jpg)no-repeat center top
+}
+section#carousel > div.tile2{
+	background:url(../img/tile-02.jpg)no-repeat left top
+}
+section#carousel > div.tile3{
+	background:url(../img/tile-03.jpg)no-repeat center
+}
+section#carousel > div.tile4{
+	background:url(../img/tile-04.jpg)no-repeat right center
+}
+section#authors{
+    max-width:1170px;
+    margin:auto;		
+}
+section#authors p{
+	line-height:30px;
+	text-align:justify;
+}
+.a-photo h5{
+	font-size:1.1em;
+	margin:20px 0 0;
+	font-weight:600;
+	color:#008aff
+}
+.a-photo img{
+	max-width:200px
+}
+section#authors .a-photo p{
+	font-size:14px;
+	margin:0;
+	font-weight:600;
+	text-align:center
+}
+section#authors h3{
+	font-weight:600;
+	line-height:40px;
+	color:#008aff;
+	margin:10px 0 20px;
+	text-transform:capitalize
+}
+section#parallax {
+    height:600px;
+    text-align:center;
+    position:relative;
+    background:url(../img/parallax-bg.jpg)no-repeat center fixed #333;
+    background-size:cover;
+    box-shadow: inset 0 0 2em #000;
+    width:100%;
+}
+.parallax-inner{
+    max-width:1170px;
+    margin:auto;
+    color:#fff;
+    position:relative;
+    top:23%
+}
+.parallax-inner .p-text{
+	font-size:1.3em
+}
+section#teaser{
+    max-width:1170px;
+    margin:auto;	
+}
+section#teaser h3{
+	font-weight:600;
+	line-height:40px;
+	color:#008aff;
+	text-transform:capitalize	
+}
+section#teaser p{
+	line-height:30px
+}
+a.cta2{
+	max-width:300px;
+	min-height:60px;
+	font-weight:600;
+	padding:15px;
+}
+section#event-details{
+    color:#fff;
+    background:#008aff;
+    width:100%
+}
+.event-inner{
+    max-width:1170px;
+    margin:auto;
+    text-align:center;	
+}
+.event-inner h1{
+	text-transform:uppercase;
+	font-weight:600;
+}
+.event-inner ul{
+	padding:0;
+	margin:auto;
+	width:60%
+}
+.event-inner li{
+	text-align:left;
+	font-size:1.2em;
+	margin:10px 0
+}
+.event-inner li:before{
+	font-family: FontAwesome;
+	content:'\f00c';
+	margin-right:15px;
+}
+a.cta3 {
+	background:#fff;
+	font-weight:600;
+	padding:20px 30px;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	-o-border-radius:6px;
+	text-decoration:none;
+	display:inline-block;
+	margin:20px auto;
+	font-size:1.3em;
+	border:solid 3px #fff;
+	transition:all .3s ease;
+}
+a.cta3:hover{
+	background:transparent;
+	color:#fff
 }

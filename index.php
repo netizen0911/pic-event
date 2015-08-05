@@ -12,7 +12,6 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<style>
 		    .flip-cont {
-		      height: 100%;
 		      display: inline-block;
 		    }
 		    .flip-cont label {
@@ -58,7 +57,7 @@
 				</div><!-- #header-inner -->
 			</header><!-- #header -->
 			<div id="countdown" class="container">
-				<div class="row">
+				<div class="row text-center">
 					<div class="flipTimer">
 					    <div class="flip-cont">
 					        <div class="days"></div>
@@ -93,77 +92,109 @@
 				<section id="intro" class="section-one row">
 					<h1 class="section-title">Cras porttitor varius lacus ac mollis</h1>
 					<div class="separator-line"></div>
+					<div class="separator"></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, sem eget dapibus faucibus, massa magna tincidunt justo, in sodales felis justo cursus nisi. Cras ullamcorper dolor sit amet turpis ultricies, vitae euismod velit pulvinar. Sed mattis in mauris quis placerat. Cras porttitor varius lacus ac mollis. Sed euismod nisi dapibus, tempor ligula quis, efficitur libero. Curabitur sed urna ex. Aenean eu mattis arcu, vitae tempus augue. Quisque fermentum porta tincidunt. Curabitur ac turpis consectetur, bibendum erat a, hendrerit eros.</p>
 				</section>
+				<div class="separator-lg"></div>
 				<section id="carousel" class="section-two row">
+					<div class="col-md-3 col-sm-6 tile1"></div>
+					<div class="col-md-3 col-sm-6 tile2"></div>
+					<div class="col-md-3 col-sm-6 tile3"></div>
+					<div class="col-md-3 col-sm-6 tile4"></div>
+					<!--
 					<img src="img/tile-01.jpg" />
 					<img src="img/tile-02.jpg" />
 					<img src="img/tile-03.jpg" />
 					<img src="img/tile-04.jpg" />
+					-->
 				</section>
+				<div class="separator-lg"></div>
 				<section id="authors" class="section-three row">
-					<div class="col-md-3">
+					<div class="col-md-4 text-center a-photo">
 						<img src="img/icon-sunil.png" />
 						<h5>Sunil Tulsiani</h5>
 						<p>Founder of <strong>Private Investment Club</strong></p>
 					</div>
-					<div class="col-md-9">
-						<h3>Nullam efficitur quis augue id ultrices. In imperdiet cursus purus vitae aliquam.</h3>
+					<div class="col-md-8">
+						<h3>Nullam efficitur quis augue id ultrices. In imperdiet cursus.</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec venenatis nibh, in maximus tellus. Cras id pharetra felis. Praesent blandit metus nisl, et dictum libero fringilla at. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nulla eget velit nisl. Nullam efficitur quis augue id ultrices. In imperdiet cursus purus vitae aliquam.
 						</p>
 					</div>
+					<div class="separator"></div>
 					<div class="separator-line"></div>
-					<div class="col-md-3">
+					<div class="separator"></div>
+					<div class="col-md-4 col-md-push-8 text-center a-photo">
 						<img src="img/icon-brian.png" />
 						<h5>Brian Tracy</h5>
 						<p>Author and Business Coach</strong></p>
 					</div>
-					<div class="col-md-9">
-						<h3>Nullam efficitur quis augue id ultrices. In imperdiet cursus purus vitae aliquam.</h3>
+					<div class="col-md-8 col-md-pull-4">
+						<h3>Nullam efficitur quis augue id ultrices. In imperdiet cursus.</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec venenatis nibh, in maximus tellus. Cras id pharetra felis. Praesent blandit metus nisl, et dictum libero fringilla at. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nulla eget velit nisl. Nullam efficitur quis augue id ultrices. In imperdiet cursus purus vitae aliquam.
 						</p>
 					</div>
 				</section>
-				<section id="parallax" class="section-four row">
-					<h1 class="section-title">Cras quis tristique ante Nullam condimentum</h1>
-					<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales.</p>
-					<p><a href="#" class="cta">RESERVE YOUR SEAT NOW</a></p>
-				</section>
+				<div class="separator-lg"></div>
+				<section id="parallax" class="section-four container">
+					<div class="row parallax-inner">
+						<h1 class="section-title">Cras quis tristique ante Nullam condimentum</h1>
+						<p class="separator"></p>
+						<p class="p-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales.</p>
+						<p class="separator"></p>
+						<p><a href="#" class="cta"><span>RESERVE YOUR SEAT NOW</span></a></p>
+					</div>
+				</section>				
+				<div class="separator-lg"></div>
 				<section id="teaser" class="section-five row">
 					<div class="col-md-6">
+						<div class="separator"></div>
 						<img src="img/brian-2.jpg" />
 					</div>
 					<div class="col-md-6">
-						<h3>Duis porta quam ut quam congue sodales.</h3>
+						<h3>Duis porta quam ut quam congue sodales</h3>
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue.</p>
-						<p><a href="" class="cta2">RESERVED YOUR SEAT NOW</a></p>
+						<p class="separator"></p>
+						<p><a href="" class="cta2"><span>RESERVED YOUR SEAT NOW</span></a></p>
 					</div>
+					<div class="separator-md"></div>
 					<div class="separator-line"></div>
-					<div class="col-md-6">
+					<div class="separator-md"></div>
+					<div class="col-md-6 col-md-push-6">
+						<div class="separator"></div>
 						<img src="img/sunil-2.jpg" />
 					</div>
-					<div class="col-md-6">
-						<h3>Duis porta quam ut quam congue sodales.</h3>
+					<div class="col-md-6 col-md-pull-6">
+						<h3>Duis porta quam ut quam congue sodales</h3>
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue.</p>
-						<p><a href="" class="cta2">RESERVED YOUR SEAT NOW</a></p>
+						<p class="separator"></p>
+						<p><a href="" class="cta2"><span>RESERVED YOUR SEAT NOW</span></a></p>
 					</div>
 				</section>
-				<section id="event-details" class="section-six row">
-					<h1 class="section-title-light">Cum sociis natoque penatibus et magnis dis parturient montesv</h1>
-					<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales.</p>
-					<ul>
-						<li>Cum sociis natoque penatibus et magnis dis parturient montes.</li>
-						<li>Nascetur ridiculus mus. Cras quis tristique ante.</li>
-						<li>Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus.</li>
-						<li>In tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales.
-						<li>Duis porta quam ut quam congue sodales.</li>
-					</ul>
-					<p>
-						<a href="" class="cta3">RESERVE YOUR SEAT NOW</a>
-					</p>
+				<div class="separator-lg"></div>
+				<section id="event-details" class="section-six container">
+					<div class="separator-lg"></div>
+					<div class="row event-inner">
+						<h1 class="section-title-light">Cum sociis natoque penatibus et magnis dis</h1>
+						<div class="separator"></div>
+						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales.</p>
+						<div class="separator"></div>
+						<ul>
+							<li>Cum sociis natoque penatibus et magnis dis parturient montes.</li>
+							<li>Nascetur ridiculus mus. Cras quis tristique ante.</li>
+							<li>Nullam condimentum, orci varius lacinia imperdiet, mi tellus.</li>
+							<li>In tincidunt eros felis ac augue. Duis porta quam ut quam congue.</li>
+							<li>Duis porta quam ut quam congue sodales.</li>
+						</ul>
+						<div class="separator"></div>
+						<div>
+							<a href="" class="cta3"><span>RESERVE YOUR SEAT NOW</span></a>
+						</div>
+					</div>					
+					<div class="separator-lg"></div>
 				</section>
+				<div class="separator-lg"></div>
 				<section id="speakers" class="section-seven row">
 					<h1 class="section-title-lg">parturient montesv</h1>
 					<div class="col-md-3">
@@ -173,13 +204,13 @@
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
 					</div>
 					<div class="col-md-3">
-						<p class="photo"><img src="img/spkr-1.jpg" /></p>
+						<p class="photo"><img src="img/spkr-2.jpg" /></p>
 						<h5>JO AMICK</h5>
 						<p class="title">Executive Director, Investor Alliance<br/>Asset Management Group</p>
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
 					</div>
 					<div class="col-md-3">
-						<p class="photo"><img src="img/spkr-1.jpg" /></p>
+						<p class="photo"><img src="img/spkr-3.jpg" /></p>
 						<h5>ROBERT ALLEN</h5>
 						<p class="title">Managing Director, Bramptonian Group</p>
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
