@@ -46,7 +46,7 @@
 							<h3 class="event-info">Mississauga, August 10th, 2015</h3>
 						</div>
 						<div id="cta">
-							<a href=""><span>RESERVE YOUR SEAT NOW</span></a>
+							<a href="#signup" class="register"><span>RESERVE YOUR SEAT NOW</span></a>
 						</div>
 					</div>
 					<div class="col-md-6 col-right">
@@ -143,7 +143,7 @@
 						<p class="separator"></p>
 						<p class="p-text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales.</p>
 						<p class="separator"></p>
-						<p><a href="#" class="cta"><span>RESERVE YOUR SEAT NOW</span></a></p>
+						<p><a href="#signup" class="cta register"><span>RESERVE YOUR SEAT NOW</span></a></p>
 					</div>
 				</section>				
 				<div class="separator-lg"></div>
@@ -156,7 +156,7 @@
 						<h3>Duis porta quam ut quam congue sodales</h3>
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue.</p>
 						<p class="separator"></p>
-						<p><a href="" class="cta2"><span>RESERVED YOUR SEAT NOW</span></a></p>
+						<p><a href="#signup" class="cta2 register"><span>RESERVED YOUR SEAT NOW</span></a></p>
 					</div>
 					<div class="separator-md"></div>
 					<div class="separator-line"></div>
@@ -169,7 +169,7 @@
 						<h3>Duis porta quam ut quam congue sodales</h3>
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue.</p>
 						<p class="separator"></p>
-						<p><a href="" class="cta2"><span>RESERVED YOUR SEAT NOW</span></a></p>
+						<p><a href="#signup" class="cta2 register"><span>RESERVED YOUR SEAT NOW</span></a></p>
 					</div>
 				</section>
 				<div class="separator-lg"></div>
@@ -189,96 +189,123 @@
 						</ul>
 						<div class="separator"></div>
 						<div>
-							<a href="" class="cta3"><span>RESERVE YOUR SEAT NOW</span></a>
+							<a href="#signup" class="cta3 register"><span>RESERVE YOUR SEAT NOW</span></a>
 						</div>
 					</div>					
 					<div class="separator-lg"></div>
 				</section>
 				<div class="separator-lg"></div>
-				<section id="speakers" class="section-seven row">
-					<h1 class="section-title-lg">parturient montesv</h1>
-					<div class="col-md-3">
-						<p class="photo"><img src="img/spkr-1.jpg" /></p>
-						<h5>NICKY BILLOU</h5>
-						<p class="title">Thinking Coach, Finish Line Thinking</p>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
-					</div>
-					<div class="col-md-3">
-						<p class="photo"><img src="img/spkr-2.jpg" /></p>
-						<h5>JO AMICK</h5>
-						<p class="title">Executive Director, Investor Alliance<br/>Asset Management Group</p>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
-					</div>
-					<div class="col-md-3">
-						<p class="photo"><img src="img/spkr-3.jpg" /></p>
-						<h5>ROBERT ALLEN</h5>
-						<p class="title">Managing Director, Bramptonian Group</p>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
+				<section id="speakers" class="section-seven container">
+					<div class="row spkrs-inner text-center">
+						<h1 class="section-title-lg">parturient montesv</h1>
+						<div class="separator-line"></div>
+						<div class="separator-md"></div>
+						<div class="col-md-4">
+							<div class="spkr">
+								<p class="photo"><img src="img/spkr-1.jpg" /></p>
+								<h5>NICKY BILLOU</h5>
+								<p class="title">Thinking Coach, Finish Line Thinking</p>
+								<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
+							</div>							
+						</div>
+						<div class="col-md-4">
+							<div class="spkr">
+								<p class="photo"><img src="img/spkr-2.jpg" /></p>
+								<h5>JO AMICK</h5>
+								<p class="title">Executive Director, Investor Alliance<br/>Asset Management Group</p>
+								<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="spkr">
+								<p class="photo"><img src="img/spkr-3.jpg" /></p>
+								<h5>ROBERT ALLEN</h5>
+								<p class="title">Managing Director, Bramptonian Group</p>
+								<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nullam condimentum, orci varius lacinia imperdiet, </p>
+							</div>
+						</div>
 					</div>
 				</section>
-				<section id="signup" class="section-eight row">
-					<h1 class="section-title-lg">REGISTER NOW</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec venenatis nibh, in maximus tellus. Cras id pharetra felis. Praesent blandit metus nisl, et dictum libero fringilla at.</p>
-					<div class="col-md-6">
-						<div id="general" class="plan">
-							<h2>GENERAL<span>ADMISSION</span></h2>
-							<div class="price">
-								<span class="sign">$</span>
-								<span class="amount">47</span>
-								<span class="cents">.00</span>
+				<div class="separator-lg"></div>
+				<section id="signup" class="section-eight container">
+					<div class="separator-lg"></div>
+					<div class="signup-inner row text-center">
+						<h1 class="section-title-lg">REGISTER NOW</h1>
+						<div class="separator-line"></div>
+						<div class="separator-md"></div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec venenatis nibh, in maximus tellus. Cras id pharetra felis. Praesent blandit metus nisl, et dictum libero fringilla at.</p>
+						<div class="separator-lg"></div>
+						<div class="col-md-6">
+							<div id="general" class="plan">
+								<h2>GENERAL<span>ADMISSION</span></h2>
+								<div class="price">
+									<span class="sign">$</span>
+									<span class="amount">47</span>
+									<span class="cents">.00</span>
+								</div>
+								<ul>
+									<li>Duis porta quam ut quam congue</li>
+									<li>Sodales ulla eget velit nisl</li>
+									<li>Nullam efficitur quis augue</li>
+									<li>Id ultrices In imperdiet cursus</li> 
+									<li>Purus vitae aliquam augue</li>
+									<li>Nullam efficitur quis augue</li>
+									<li>Id ultrices In imperdiet cursus</li> 
+									<li>Purus vitae aliquam</li>
+								</ul>
+								<p class="btn">
+									<a href="#"><span>REGISTER NOW</span></a>
+								</p>
+								<p class="separator"></p>
 							</div>
-							<ul>
-								<li>Duis porta quam ut quam congue</li>
-								<li>Sodales ulla eget velit nisl</li>
-								<li>Nullam efficitur quis augue</li>
-								<li>Id ultrices In imperdiet cursus</li> 
-								<li>Purus vitae aliquam augue</li>
-								<li>Nullam efficitur quis augue</li>
-								<li>Id ultrices In imperdiet cursus</li> 
-								<li>Purus vitae aliquam</li>
-							</ul>
-							<p class="btn">
-								<a href="#">REGISTER NOW</a>
-							</p>
 						</div>
-						<p class="separator"></p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec venenatis nibh, in maximus tellus. Cras id pharetra felis. Praesent blandit metus nisl, et dictum libero fringilla at. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nulla eget velit nisl. Nullam efficitur quis augue id ultrices. In imperdiet cursus purus vitae aliquam.</p>
-					</div>
-					<div class="col-md-6">
-						<div id="vip" class="plan">
-							<h2>VIP<span>TICKET</span></h2>
-							<div class="price">
-								<span class="sign">$</span>
-								<span class="amount">97</span>
-								<span class="cents">.00</span>
+						<div class="col-md-6">
+							<div id="vip" class="plan">
+								<h2>VIP<span>TICKET</span></h2>
+								<div class="price">
+									<span class="sign">$</span>
+									<span class="amount">97</span>
+									<span class="cents">.00</span>
+								</div>
+								<ul>
+									<li>Duis porta quam ut quam congue</li>
+									<li>Sodales ulla eget velit nisl</li>
+									<li>Nullam efficitur quis augue</li>
+									<li>Id ultrices In imperdiet cursus</li> 
+									<li>Purus vitae aliquam augue</li>
+									<li>Nullam efficitur quis augue</li>
+									<li>Id ultrices In imperdiet cursus</li> 
+									<li>Purus vitae aliquam</li>
+								</ul>
+								<p class="btn">
+									<a href="#"><span>REGISTER NOW</span></a>
+								</p>
+								<p class="separator"></p>
 							</div>
-							<ul>
-								<li>Duis porta quam ut quam congue</li>
-								<li>Sodales ulla eget velit nisl</li>
-								<li>Nullam efficitur quis augue</li>
-								<li>Id ultrices In imperdiet cursus</li> 
-								<li>Purus vitae aliquam augue</li>
-								<li>Nullam efficitur quis augue</li>
-								<li>Id ultrices In imperdiet cursus</li> 
-								<li>Purus vitae aliquam</li>
-							</ul>
-							<p class="btn">
-								<a href="#">REGISTER NOW</a>
-							</p>
 						</div>
-					</div>
+						<div class="separator-lg"></div>
+						<div class="row">
+							<p class="separator"></p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec venenatis nibh, in maximus tellus. Cras id pharetra felis. Praesent blandit metus nisl, et dictum libero fringilla at. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras quis tristique ante. Nullam condimentum, orci varius lacinia imperdiet, mi tellus volutpat lectus, in tincidunt eros felis ac augue. Duis porta quam ut quam congue sodales. Nulla eget velit nisl. Nullam efficitur quis augue id ultrices. In imperdiet cursus purus vitae aliquam.</p>
+						</div>
+					</div>							
+					<div class="separator-lg"></div>							
+					<div class="separator-lg"></div>							
+					<div class="separator-lg"></div>
 				</section>
 			</div><!-- #content -->
-			<footer id="footer" class="container">
+			<footer id="footer" class="container text-center">
 				<div id="social" class="row">
+					<div class="separator-md"></div>
 					<h4>Share To Friends</h4>
 					<ul>
-						<li><a href=""><i class="facebook"></i></a></li>
-						<li><a href=""><i class="twitter"></i></a></li>
-						<li><a href=""><i class="google-plus"></i></a></li>
-						<li><a href=""><i class="linkedin"></i></a></li>
+						<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+						<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+						<li><a href=""><i class="fa fa-linkedin fa-lg"></i></a></li>
 					</ul>
 				</div>
+				<div class="separator-md"></div>
 				<div id="copy">
 					<p>&copy; 2015 Copyright. Private Investment Club, Inc. All Rights Reserved</p>
 				</div>
@@ -299,6 +326,16 @@
 			    days: false, 
 			    //callback: function() { alert('times up!'); } 
 			  });
+			});
+		</script>
+		<script>
+			$(".register").click(function(e) {
+				e.preventDefault();
+			    var offset = 20; //Offset of 20px
+
+			    $('html, body').animate({
+			        scrollTop: $("#signup").offset().top + offset
+			    }, 2000);
 			});
 		</script>
 	</body>
